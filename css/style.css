@@ -420,24 +420,10 @@ nav.site-nav a.active {
   font-size: 1.1rem;
   flex-shrink: 0;
 }
-.contact-card .contact-text {
-  display: block;
-  min-width: 0;
-  flex: 1;
-}
-.contact-card .label {
-  display: block;
-  font-size: 0.78rem;
-  color: var(--text-faint);
-  margin: 0 0 2px;
-}
-.contact-card .value {
-  display: block;
+.contact-card .contact-name {
   font-weight: 600;
-  font-size: 0.92rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 0.95rem;
+  min-width: 0;
 }
 
 /* ===== Footer ===== */
