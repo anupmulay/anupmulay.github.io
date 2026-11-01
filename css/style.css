@@ -9,6 +9,8 @@
   --accent: #1c3a5e;
   --accent-dark: #142a44;
   --accent-tint: #e4e9ee;
+  --link: #1a56db;
+  --link-hover: #123f9e;
   --shadow: none;
   --shadow-md: none;
   --radius: 4px;
@@ -30,8 +32,8 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: var(--accent); text-decoration: none; }
-a:hover { color: var(--accent-dark); text-decoration: underline; }
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: underline; }
 
 img { max-width: 100%; display: block; }
 
@@ -188,11 +190,12 @@ nav.site-nav a.active {
 
 /* ===== Bio ===== */
 .bio-text p {
-  color: var(--text-muted);
+  color: var(--text);
   font-size: 1rem;
   line-height: 1.75;
   max-width: 68ch;
   margin: 0 0 18px;
+  text-align: justify;
 }
 .bio-text p:last-child { margin-bottom: 0; }
 
