@@ -195,7 +195,7 @@ nav.site-nav a.active {
   line-height: 1.75;
   max-width: 68ch;
   margin: 0 0 18px;
-  text-align: justify;
+  text-align: left;
 }
 .bio-text p:last-child { margin-bottom: 0; }
 
