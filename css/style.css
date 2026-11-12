@@ -182,6 +182,7 @@ nav.site-nav a.active {
   color: var(--text-muted);
   font-size: 1.08rem;
   font-weight: 500;
+  line-height: 1.5;
 }
 
 @media (max-width: 560px) {
