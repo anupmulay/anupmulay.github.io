@@ -289,6 +289,9 @@ nav.site-nav a.active {
   font-size: 0.92rem;
   margin: 6px 0 0;
 }
+/* a second dated part under the same heading (e.g. two research assistant posts) */
+.timeline-item ul + .org,
+.timeline-item p + .org { margin-top: 14px; }
 
 /* ===== Buttons ===== */
 .btn {
