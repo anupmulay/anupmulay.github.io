@@ -434,6 +434,9 @@ nav.site-nav a.active {
   height: 30px;
   width: auto;
 }
+.contact-card .icon.brand img.mail-icon {
+  height: 26px;
+}
 .contact-card .contact-name {
   font-weight: 600;
   font-size: 0.95rem;
