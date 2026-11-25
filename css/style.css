@@ -427,9 +427,12 @@ nav.site-nav a.active {
   font-size: 1.1rem;
   flex-shrink: 0;
 }
-.contact-card .icon svg {
-  width: 20px;
-  height: 20px;
+.contact-card .icon.brand {
+  background: none;
+}
+.contact-card .icon.brand img {
+  height: 30px;
+  width: auto;
 }
 .contact-card .contact-name {
   font-weight: 600;
@@ -448,11 +451,10 @@ footer.site-footer {
 }
 footer.site-footer a { color: var(--text-muted); }
 
-/* ===== LinkedIn logo (footer and contact card) ===== */
-.li-logo {
+/* ===== Brand logos: official LinkedIn and GitHub files, unaltered, in black ===== */
+.brand-logo {
   display: inline-block;
-  width: 1.1em;
-  height: 1.1em;
-  fill: currentColor;
-  vertical-align: -0.2em;
+  height: 1.2em;
+  width: auto;
+  vertical-align: -0.3em;
 }
