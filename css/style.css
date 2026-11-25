@@ -9,8 +9,8 @@
   --accent: #1c3a5e;
   --accent-dark: #142a44;
   --accent-tint: #e4e9ee;
-  --link: #1a56db;
-  --link-hover: #123f9e;
+  --link: #2c5282;
+  --link-hover: #142a44;
   --shadow: none;
   --shadow-md: none;
   --radius: 4px;
@@ -329,16 +329,11 @@ nav.site-nav a.active {
   margin: 0 0 10px;
 }
 .paper .status {
-  display: inline-block;
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--accent-dark);
-  background: var(--accent-tint);
-  padding: 3px 9px;
-  border-radius: 999px;
-  margin-bottom: 10px;
+  display: block;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: 6px;
 }
 .paper p { color: var(--text-muted); margin: 0 0 10px; font-size: 0.95rem; }
 
@@ -443,7 +438,7 @@ footer.site-footer a { color: var(--text-muted); }
 /* ===== Brand logos: official LinkedIn and GitHub files, unaltered, in black ===== */
 .brand-logo {
   display: inline-block;
-  height: 1.2em;
+  height: 1em;
   width: auto;
-  vertical-align: -0.3em;
+  vertical-align: -0.15em;
 }
