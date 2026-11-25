@@ -427,6 +427,10 @@ nav.site-nav a.active {
   font-size: 1.1rem;
   flex-shrink: 0;
 }
+.contact-card .icon svg {
+  width: 20px;
+  height: 20px;
+}
 .contact-card .contact-name {
   font-weight: 600;
   font-size: 0.95rem;
@@ -443,3 +447,12 @@ footer.site-footer {
   text-align: center;
 }
 footer.site-footer a { color: var(--text-muted); }
+
+/* ===== LinkedIn logo (footer and contact card) ===== */
+.li-logo {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  fill: currentColor;
+  vertical-align: -0.2em;
+}
