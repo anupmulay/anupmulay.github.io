@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+# The course site for students is shared by link only.
+Disallow: /etii/
 
 Sitemap: https://anupmulay.github.io/sitemap.xml
